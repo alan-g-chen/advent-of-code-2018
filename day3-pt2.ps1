@@ -7,7 +7,7 @@ $claimsArray = New-Object int[][] 1000, 1000 # Intializes with a default value o
 $items = Get-Content .\test.txt
 $tooManyClaims = 0
 
-# Let's still run too see the claims first.
+# Let's still run to see the claims first.
 foreach ($item in $items)
 {
     # Transform the content
